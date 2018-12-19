@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B2551ED-4F29-45D9-A33C-687FFEDB7317}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GlbGlobeSymbol</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GLBGLOBE_SYMBOL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../GlbOutput\X86_32\GlbComm\include;$(ProjectDir)../../GlbOutput\X86_32\GlbDataEngine\include;$(ProjectDir)../../GlbOutput\X86_32\GlbGlobe\GlbGlobe\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\geos3.3.9\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libxml2-2.9.0/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libiconv1.14/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/vld/include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>None</ErrorReporting>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GlbCommD.lib;GlbDataEngineD.lib;GlbGlobeD.lib;osgd.lib;osgDBd.lib;osgGAd.lib;osgUtild.lib;AGGd.lib;opengl32.lib;geosd.lib;freetyped.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\GlbOutput\X86_32\GlbComm\lib;..\..\GlbOutput\X86_32\GlbDataEngine\lib;..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobe\lib;..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\lib;..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\lib;../../../../../3rd/C3rd/X86_32/geos3.3.9/lib;../../../../../3rd/C3rd\X86_32\freetype2.5.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y /V $(OutDir)$(TargetName).lib               $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\lib
+copy /Y /V $(OutDir)$(TargetName)$(TargetExt)  $(ProjectDir)..\..\..\..\bin\X86_32\debug\
+copy /Y /V $(OutDir)$(TargetName).pdb             $(ProjectDir)..\..\..\..\bin\X86_32\debug\pdb\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y /V $(ProjectDir)*Glb*.h                  $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\include</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GLBGLOBE_SYMBOL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../GlbOutput\X86_32\GlbComm\include;$(ProjectDir)../../GlbOutput\X86_32\GlbDataEngine\include;$(ProjectDir)../../GlbOutput\X86_32\GlbGlobe\GlbGlobe\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\geos3.3.9\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libxml2-2.9.0/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libiconv1.14/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/vld/include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>None</ErrorReporting>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GlbCommD.lib;GlbDataEngineD.lib;GlbGlobeD.lib;osgd.lib;osgDBd.lib;osgGAd.lib;osgUtild.lib;AGGd.lib;opengl32.lib;geosd.lib;freetyped.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\GlbOutput\X86_32\GlbComm\lib;..\..\GlbOutput\X86_32\GlbDataEngine\lib;..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobe\lib;..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\lib;..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\lib;../../../../../3rd/C3rd/X86_32/geos3.3.9/lib;../../../../../3rd/C3rd\X86_32\freetype2.5.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y /V $(OutDir)$(TargetName).lib               $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\lib
+copy /Y /V $(OutDir)$(TargetName)$(TargetExt)  $(ProjectDir)..\..\..\..\bin\X86_32\debug\
+copy /Y /V $(OutDir)$(TargetName).pdb             $(ProjectDir)..\..\..\..\bin\X86_32\debug\pdb\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y /V $(ProjectDir)*Glb*.h                  $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\include</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GLBGLOBE_SYMBOL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointExceptions>
+      </FloatingPointExceptions>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../GlbOutput\X86_32\GlbComm\include;$(ProjectDir)../../GlbOutput\X86_32\GlbDataEngine\include;$(ProjectDir)../../GlbOutput\X86_32\GlbGlobe\GlbGlobe\include;$(ProjectDir)../../GlbOutput\X86_32\GlbAnalyse\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\geos3.3.9\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libxml2-2.9.0/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/libiconv1.14/include;$(ProjectDir)../../../../../3rd/C3rd/X86_32/vld/include;..\..\..\..\..\3rd\C3rd\X86_32\vlc2.2.1\include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>None</ErrorReporting>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\GlbOutput\X86_32\GlbComm\lib;..\..\GlbOutput\X86_32\GlbDataEngine\lib;..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobe\lib;..\..\GlbOutput\X86_32\GlbAnalyse\lib;..\..\..\..\..\3rd\C3rd\X86_32\osg3.2.1\lib;..\..\..\..\..\3rd\C3rd\X86_32\agg2.5\lib;../../../../../3rd/C3rd/X86_32/geos3.3.9/lib;../../../../../3rd/C3rd\X86_32\freetype2.5.2\lib;../../../../../3rd/C3rd/X86_32/vlc2.2.1/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GlbComm.lib;GlbDataEngine.lib;GlbGlobe.lib;PolygonTriangulate_Win32.lib;GGeometry_Win32.lib;GTrianglate_Win32.lib;GeoTinCut_Win32.lib;GeoAlgorithm_Win32.lib;osg.lib;osgDB.lib;osgGA.lib;osgUtil.lib;osgParticle.lib;osgText.lib;AGG.lib;opengl32.lib;geos.lib;freetype.lib;libvlc.lib;libvlccore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y /V $(OutDir)$(TargetName).lib               $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\lib
+copy /Y /V $(OutDir)$(TargetName)$(TargetExt)       $(ProjectDir)..\..\..\..\bin\X86_32\release\
+copy /Y /V $(OutDir)$(TargetName).pdb               $(ProjectDir)..\..\..\..\bin\X86_32\release\pdb\</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y /V $(ProjectDir)*Glb*.h                  $(ProjectDir)..\..\GlbOutput\X86_32\GlbGlobe\GlbGlobeSymbol\include</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <PreprocessorDefinitions>_WIN64;NDEBUG;_WINDOWS;_USRDLL;GLBGLOBE_SYMBOL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointExceptions>
+      </FloatingPointExceptions>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../GlbOutput\X86_64\GlbComm\include;$(ProjectDir)../../GlbOutput\X86_64\GlbDataEngine\include;$(ProjectDir)../../GlbOutput\X86_64\GlbGlobe\GlbGlobe\include;$(ProjectDir)../../GlbOutput\X86_64\GlbAnalyse\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_64\osg3.2.1\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_64\geos3.3.9\include;$(ProjectDir)..\..\..\..\..\3rd\C3rd\X86_64\agg2.5\include;$(ProjectDir)../../../../../3rd/C3rd/X86_64/libxml2-2.9.0/include;$(ProjectDir)../../../../../3rd/C3rd/X86_64/libiconv1.14/include;$(ProjectDir)../../../../../3rd/C3rd/X86_64/vld/include;$(ProjectDir)../../../../../3rd/C3rd/X86_64/vlc2.2.1/include</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>None</ErrorReporting>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\GlbOutput\X86_64\GlbComm\lib;..\..\GlbOutput\X86_64\GlbDataEngine\lib;..\..\GlbOutput\X86_64\GlbGlobe\GlbGlobe\lib;..\..\GlbOutput\X86_64\GlbAnalyse\lib;..\..\..\..\..\3rd\C3rd\X86_64\osg3.2.1\lib;..\..\..\..\..\3rd\C3rd\X86_64\agg2.5\lib;../../../../../3rd/C3rd/X86_64/geos3.3.9/lib;../../../../../3rd/C3rd\X86_64\freetype2.5.2\lib;../../../../../3rd/C3rd\X86_64\vlc2.2.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GlbComm.lib;GlbDataEngine.lib;GlbGlobe.lib;PolygonTriangulate_x64.lib;GGeometry_x64.lib;GTrianglate_x64.lib;GeoTinCut_x64.lib;GeoAlgorithm_x64.lib;osg.lib;osgDB.lib;osgGA.lib;osgUtil.lib;osgParticle.lib;osgText.lib;AGG.lib;opengl32.lib;geos.lib;freetype.lib;libvlc.lib;libvlccore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <ForceFileOutput>MultiplyDefinedSymbolOnly</ForceFileOutput>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y /V $(OutDir)$(TargetName).lib               $(ProjectDir)..\..\GlbOutput\X86_64\GlbGlobe\GlbGlobeSymbol\lib
+copy /Y /V $(OutDir)$(TargetName)$(TargetExt)       $(ProjectDir)..\..\..\..\bin\X86_64\release\
+copy /Y /V $(OutDir)$(TargetName).pdb               $(ProjectDir)..\..\..\..\bin\X86_64\release\pdb\
+copy /y /v *.frag                                   $(ProjectDir)..\..\..\..\bin\X86_64\release\res
+copy /y /v *.vert                                   $(ProjectDir)..\..\..\..\bin\X86_64\release\res</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y /V $(ProjectDir)*Glb*.h                  $(ProjectDir)..\..\GlbOutput\X86_64\GlbGlobe\GlbGlobeSymbol\include</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Drawer2D.cpp" />
+    <ClCompile Include="GlbGlobeAutoDrill.cpp" />
+    <ClCompile Include="GlbGlobeAutoTransform.cpp" />
+    <ClCompile Include="GlbGlobeCoordinateAxisSymbol.cpp" />
+    <ClCompile Include="GlbGlobeCustomShape.cpp" />
+    <ClCompile Include="GlbGlobeCustomShapeDrawable.cpp" />
+    <ClCompile Include="GlbGlobeDelaunayTriangulatorEx.cpp" />
+    <ClCompile Include="GlbGlobeDigHoleSymbol.cpp" />
+    <ClCompile Include="GlbGlobeDrillSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLine2DSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLine3DSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLineArrowSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLineDynamicArrowSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLineModelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeLinePixelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarker2DShapeSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarker3DShapeSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerDynamicLabelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerEpicentreSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerFireSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerImageSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerLabelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerModelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerPixelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeMarkerSmokeSymbol.cpp" />
+    <ClCompile Include="GlbGlobeNetworkSymbol.cpp" />
+    <ClCompile Include="GlbGlobeOccluderGeometryEx.cpp" />
+    <ClCompile Include="GlbGlobePolygonBuildingSymbol.cpp" />
+    <ClCompile Include="GlbGlobePolygonLakeSymbol.cpp" />
+    <ClCompile Include="GlbGlobePolygonSymbol.cpp" />
+    <ClCompile Include="GlbGlobePolygonWaterSymbol.cpp" />
+    <ClCompile Include="GlbGlobePolyhedronSymbol.cpp" />
+    <ClCompile Include="GlbGlobeRenderSimpleLabelSymbol.cpp" />
+    <ClCompile Include="GlbGlobeSectionSymbol.cpp" />
+    <ClCompile Include="GlbGlobeSymbol.cpp" />
+    <ClCompile Include="GlbGlobeSymbolCommon.cpp" />
+    <ClCompile Include="GlbGlobeTessellatorEx.cpp" />
+    <ClCompile Include="GlbGlobeTinSymbol.cpp" />
+    <ClCompile Include="GlbGlobeVideoSymbol.cpp" />
+    <ClCompile Include="GlbGlobeViewSymbol.cpp" />
+    <ClCompile Include="GlbGlobeVirtualDrillSymbol.cpp" />
+    <ClCompile Include="GlbGlobeVirtualSectionSymbol.cpp" />
+    <ClCompile Include="GlbGlobeVisualLineSymbol.cpp" />
+    <ClCompile Include="GlbTinZScaleVisitor.cpp" />
+    <ClCompile Include="GlbVideoPlayer.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drawer2D.h" />
+    <ClInclude Include="GlbGlobeAutoDrill.h" />
+    <ClInclude Include="GlbGlobeAutoTransform.h" />
+    <ClInclude Include="GlbGlobeCoordinateAxisSymbol.h" />
+    <ClInclude Include="GlbGlobeCustomShape.h" />
+    <ClInclude Include="GlbGlobeCustomShapeDrawable.h" />
+    <ClInclude Include="GlbGlobeDelaunayTriangulatorEx.h" />
+    <ClInclude Include="GlbGlobeDigHoleSymbol.h" />
+    <ClInclude Include="GlbGlobeDrillSymbol.h" />
+    <ClInclude Include="GlbGlobeLine2DSymbol.h" />
+    <ClInclude Include="GlbGlobeLine3DSymbol.h" />
+    <ClInclude Include="GlbGlobeLineArrowSymbol.h" />
+    <ClInclude Include="GlbGlobeLineDynamicArrowSymbol.h" />
+    <ClInclude Include="GlbGlobeLineModelSymbol.h" />
+    <ClInclude Include="GlbGlobeLinePixelSymbol.h" />
+    <ClInclude Include="GlbGlobeMarker2DShapeSymbol.h" />
+    <ClInclude Include="GlbGlobeMarker3DShapeSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerDynamicLabelSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerEpicentreSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerFireSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerImageSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerLabelSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerModelSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerPixelSymbol.h" />
+    <ClInclude Include="GlbGlobeMarkerSmokeSymbol.h" />
+    <ClInclude Include="GlbGlobeNetworkSymbol.h" />
+    <ClInclude Include="GlbGlobeOccluderGeometryEx.h" />
+    <ClInclude Include="GlbGlobePolygonBuildingSymbol.h" />
+    <ClInclude Include="GlbGlobePolygonLakeSymbol.h" />
+    <ClInclude Include="GlbGlobePolygonSymbol.h" />
+    <ClInclude Include="GlbGlobePolygonWaterSymbol.h" />
+    <ClInclude Include="GlbGlobePolyhedronSymbol.h" />
+    <ClInclude Include="GlbGlobeRenderSimpleLabelSymbol.h" />
+    <ClInclude Include="GlbGlobeSectionSymbol.h" />
+    <ClInclude Include="GlbGlobeSymbol.h" />
+    <ClInclude Include="GlbGlobeSymbolCommon.h" />
+    <ClInclude Include="GlbGlobeSymbolExport.h" />
+    <ClInclude Include="GlbGlobeTessellatorEx.h" />
+    <ClInclude Include="GlbGlobeTinSymbol.h" />
+    <ClInclude Include="GlbGlobeVideoSymbol.h" />
+    <ClInclude Include="GlbGlobeViewSymbol.h" />
+    <ClInclude Include="GlbGlobeVirtualDrillSymbol.h" />
+    <ClInclude Include="GlbGlobeVirtualSectionSymbol.h" />
+    <ClInclude Include="GlbGlobeVisualLineSymbol.h" />
+    <ClInclude Include="GlbTinZScaleVisitor.h" />
+    <ClInclude Include="GlbVideoPlayer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

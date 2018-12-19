@@ -1,0 +1,153 @@
+﻿  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbCalculateBoundBoxVisitor.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbCalculateNodeSizeVisitor.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbColorVisitor.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbCompareValue.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbFadeInOutCallback.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeCompositeObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeCoordinateAxisObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeDigHole.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeDrill.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeDynamicObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeGridObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeLine.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeNetworkObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeObjectExport.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobePoint.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobePolygon.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeSection.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeTinObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeVideo.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeViewAnalysis.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeVirtualDrillObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeVirtualSectionObject.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbGlobeVisualLineAnalysis.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbObjectRegisterCreator.h
+  D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\GlbOpacityVisitor.h
+  已复制        25 个文件。
+  stdafx.cpp
+D:\creatarGlobe\trunck2014\3rd\C3rd\X86_32\libiconv1.14\include\iconv.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(34): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(160): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+stdafx.cpp(93): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+  dllmain.cpp
+D:\creatarGlobe\trunck2014\3rd\C3rd\X86_32\libiconv1.14\include\iconv.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(34): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbOutput\X86_32\GlbGlobe\GlbGlobe\include\GlbGlobeLog.h(160): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+  GlbCalculateBoundBoxVisitor.cpp
+  GlbCalculateNodeSizeVisitor.cpp
+  GlbColorVisitor.cpp
+  GlbCompareValue.cpp
+  GlbFadeInOutCallback.cpp
+  GlbGlobeCompositeObject.cpp
+  GlbGlobeCoordinateAxisObject.cpp
+GlbGlobeCoordinateAxisObject.cpp(71): warning C4101: 'symtype' : unreferenced local variable
+  GlbGlobeDigHole.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\stdafx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+GlbGlobeDigHole.cpp(1869): warning C4101: 'rdtype' : unreferenced local variable
+  GlbGlobeDrill.cpp
+  GlbGlobeDynamicObject.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\StdAfx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+GlbGlobeDynamicObject.cpp(1689): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(1794): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(1830): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(1859): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(1878): warning C4018: '>=' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(2136): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeDynamicObject.cpp(2272): warning C4101: 'cdlen' : unreferenced local variable
+  GlbGlobeGridObject.cpp
+GlbGlobeGridObject.cpp(828): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(925): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(927): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1074): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1077): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1105): warning C4482: nonstandard extension used: enum 'osg::StateSet::RenderingHint' used in qualified name
+GlbGlobeGridObject.cpp(1173): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1183): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1285): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeGridObject.cpp(1336): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeGridObject.cpp(1348): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeGridObject.cpp(1365): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeGridObject.cpp(1432): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1442): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1510): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1520): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1597): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1599): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1657): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1660): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1662): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeGridObject.cpp(1872): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1874): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1990): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(1993): warning C4482: nonstandard extension used: enum 'osg::Geometry::AttributeBinding' used in qualified name
+GlbGlobeGridObject.cpp(2021): warning C4482: nonstandard extension used: enum 'osg::StateSet::RenderingHint' used in qualified name
+  GlbGlobeLine.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\StdAfx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+GlbGlobeLine.cpp(54): warning C4018: '>' : signed/unsigned mismatch
+GlbGlobeLine.cpp(1579): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeLine.cpp(2446): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeLine.cpp(3099): warning C4018: '<' : signed/unsigned mismatch
+  GlbGlobeNetworkObject.cpp
+  GlbGlobeObject.cpp
+  GlbGlobePoint.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\StdAfx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+  GlbGlobePolygon.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\StdAfx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+GlbGlobePolygon.cpp(68): warning C4018: '>' : signed/unsigned mismatch
+GlbGlobePolygon.cpp(1900): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobePolygon.cpp(2515): warning C4018: '<' : signed/unsigned mismatch
+  GlbGlobeSection.cpp
+  GlbGlobeTinObject.cpp
+GlbGlobeTinObject.cpp(1667): warning C4101: 'childNode' : unreferenced local variable
+GlbGlobeTinObject.cpp(1672): warning C4101: 'rdtype' : unreferenced local variable
+  GlbGlobeVideo.cpp
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glboutput\x86_32\glbglobe\glbglobesymbol\include\StdAfx.h(32): warning C4005: 'GetGValueInBGRA' : macro redefinition
+          d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\stdafx.h(33) : see previous definition of 'GetGValueInBGRA'
+GlbGlobeVideo.cpp(306): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeVideo.cpp(661): warning C4018: '<' : signed/unsigned mismatch
+GlbGlobeVideo.cpp(2366): warning C4101: 'rdtype' : unreferenced local variable
+  GlbGlobeViewAnalysis.cpp
+  Generating Code...
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbglobevideo.cpp(1332): warning C4715: 'GlbGlobe::CGlbGlobeVideo::GetOutLine' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(31): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueDoubleEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(49): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueColorEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(61): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueIntEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(73): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueBoolEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(85): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueStringEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(97): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueTexRepeatEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(109): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueLinePatternEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(121): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueMultilineAlignEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(133): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueLabelRelationEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(145): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueLabelAlignEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(157): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueImageAlignEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(169): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueBillboardEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(181): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueArrowPatternEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(193): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueDynamicLabelFadeEnumEqual' : not all control paths return a value
+d:\creatarglobe\trunck2014\trunck_new\src\001csrc\glbglobe\glbglobeobject\glbcomparevalue.cpp(205): warning C4715: 'GlbGlobe::CGlbCompareValue::CompareValueDynamicLabelFadeSpeedEnumEqual' : not all control paths return a value
+  Compiling...
+  GlbGlobeVirtualDrillObject.cpp
+GlbGlobeVirtualDrillObject.cpp(1224): warning C4018: '<' : signed/unsigned mismatch
+  GlbGlobeVisualLineAnalysis.cpp
+  GlbGlobeVirtualSectionObject.cpp
+  GlbObjectRegisterCreator.cpp
+  GlbOpacityVisitor.cpp
+  Generating Code...
+     Creating library Release\GlbGlobeObject.lib and object Release\GlbGlobeObject.exp
+  GlbGlobeObject.vcxproj -> D:\creatarGlobe\trunck2014\trunck_new\src\001CSrc\GlbGlobe\GlbGlobeObject\Release\GlbGlobeObject.dll
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
